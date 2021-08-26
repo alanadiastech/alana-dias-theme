@@ -1,0 +1,29 @@
+    {
+    "name": "alana-dias-theme",
+    "displayName": "Alana Dias Theme",
+    "description": "Tema desenvolvido por Alana Dias Tech.",
+    "version": "0.0.1",
+    "publisher": "AlanadosSantosDias",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "icone": "icone.png",
+    "galeriaBanner": {
+        "cor"  : "#f84966",
+        "tema" : "dark" 
+   },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Alana Dias Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Alana Dias Theme-color-theme.json"
+            }
+        ]
+    }
+    "license": "Mit"
+    
+}
